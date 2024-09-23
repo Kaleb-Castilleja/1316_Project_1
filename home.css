@@ -10,7 +10,7 @@ header {
 	top: 0px;
 	padding: 10px;
 	position: absolute;
-	background-color:#101010;
+	background-color:#FFF;
 }
 	.site-logo {
 	position: relative;
@@ -31,15 +31,15 @@ header {
 	font-size: 1.25em;
 }
 	a {
-	color: khaki;
+	color:#121212;
 	font-family: verdana;
 	text-decoration: none;
 }
 	a:hover {
-	color:orange;
+	color:goldenrod;
 }
 body {
-	background-color: #242424
+	background-color: #FFF;
 }
 	
 	.myface {
@@ -50,70 +50,62 @@ body {
 		clip-path: circle(150px)
 	}
 	.h1name {
-		color:goldenrod;
+		color:#121212;
 		font-size:300%;
 		text-align:center;
 		padding-bottom:25px;
-		font-family:arial;
 		letter-spacing: 5px
 	}
+	.h1name {
+  		font-family: "Inter Tight", sans-serif;
+  		font-optical-sizing: auto;
+  		font-weight:400;
+  		font-style: normal;
+}
 	.pstyle1{
-		color:cornsilk;
+		color:#404040;
 		font-size:105%;
 		text-align:center;
 		font-family:arial;
 		width:400px;
 		margin:auto;
-		padding-bottom: 100px
+		padding-bottom: 40px
 	}
-	.h2style {
-		color:palegoldenrod;
-		font-size:130%;
-		font: normal;
+	.aboutbutton {
+		color:white;
+		font-size:100%;
 		text-align:center;
-		font-family:arial;
-		border-bottom: 5px solid darkgoldenrod;
-		padding-bottom: 5px;
-		width:400px;
+		font-family:"Inter Tight", sans-serif;
+		font-optical-sizing: auto;
+		font-weight:400;
+		font-style:normal;
+		letter-spacing: 0.5px;
+		background-color:#242424;
+		padding: 14px 7px;
+		width:120px;
 		margin:0px auto 40px;
 	}
-#container {
-	max-width: 800px;
-	margin: 0 auto;
-	
+	.aboutbutton:hover {
+		background-color:#080808;
+		}
+	.aboutbutton:active {
+		background-color:darkgoldenrod;
 }
-	.left {
-	width: 380px;
-	height: 200px;
-	background-color: #484848;
-	border-radius:4px;
-	float: left;
-	margin: 10px 10px;
+	.aboutbutton:visited {
+		background-color:gold;
 }
-	.right {
-	width: 380px;
-	height: 200px;
-	background-color: #484848;
-	border-radius:4px;
-	float: left;
-	margin: 10px 10px;
-}
-section > article {
-	color:white;
-	margin: 10px;
-	font-size: 110%;
-	font-family: courier;
-	border: 2px solid gold;
-}
-div > p {
-	display: none;
+	.imgmap {
+	width:700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 footer {
-	background-color: black;
+	background-color: darkgoldenrod;
 	clear: both;
-	color: orange;
+	color: gold;
 	text-align: center;
 	padding: 20px;
 	font-size: 125%;
-	font-family:arial
+	font-family:cambria;
 }
