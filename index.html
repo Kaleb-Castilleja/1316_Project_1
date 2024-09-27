@@ -2,13 +2,14 @@
 <html lang="en-US">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kaleb Castilleja</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="home.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<style></style>
 
 <body>
 <header>
@@ -16,34 +17,95 @@
 		<img class="logo" src="images/QuillPaper.png" alt="logo">
 	</a>
 		<nav class="site-nav">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Gallery</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contact</a></li>
+			<ul>
+		<li class="li"><a href="index.html">Home</a></li>
+		<li class="li"><a href="AboutMe.html">About</a></li>
+		<li class="li"><a href="#">Gallery</a></li>
+		<li class="li"><a href="#">Blog</a></li>
+		<li class="li"><a href="#">Contact</a></li>
+			</ul>
 		</nav>
 </header>
-<section>	
-<img src="images/MyFace.JPG" alt="MyFace" title="MyFace"
-		 class="myface" style="width:300px; margin-bottom:-100px">
-	<h1 class="h1name">Kaleb C.</h1>
-	
-<p class="pstyle1">Welcome to my website. I have lots of things I want to share. There isn't much right now, but there will be more soon. Slowly but surely.</p>
-		<a href="#"><h2 class="aboutbutton">About Me</h2></a>
-</section>
-	
 <div>
-			<section>
-			<article><img src="images/AboutME.png" alt="About Me" usemap="#aboutmap" class="imgmap">
-			<map name="aboutmap">
-  <area shape="rect" coords="10,55,162,145" alt="#" href="#" title="puzzle solver">
-  <area shape="rect" coords="362,55,515,145" alt="#" href="#" title="marching band">
-			</map>
-			</article>
-			</section>
+	<section>	
+	<img src="images/MyFace.JPG" alt="MyFace" title="MyFace"
+		 class="myface">
+		<h1 class="h1name">Kaleb C.</h1>
+		<p class="pstyle1">Welcome to my website. I have lots of things I want to share. There isn't much right now, but there will be more soon. Slowly but surely.</p>
+		<a href="#"><h3 class="aboutbutton">About Me</h3></a>
+	</section>
 </div>
-<footer>
-		<p>Things are really changing here.</p>
-		</footer>
+<div class="emptyblock"></div>
+<div>
+	<section><h2 class="h2blog">From the blog</h2>
+		<article><h3>No content yet.&#128274</h3></article>
+		<article><h3>No content yet.&#128296</h3></article>
+		<article><h3>No content yet.&#x1F527</h3></article>
+		<br>
+	</section>
+	<section><h2 class="h2blog">There's a video here</h2>
+		<div class="container2">
+			<div class="container">
+			<iframe src="https://www.youtube.com/watch?v=p6aF5ma7BiM" title="Design Theory: How Brands Use Design and Marketing to Control Your Mind" class="iframe">
+			</iframe>
+			</div>
+		</div>
+	</section>
+	<section><h2 class="h2blog">Goals for this site</h2>
+		<ul  type="square" class="orderedlist">
+			<li class="list1"><h3>Success</h3></li>
+			<li class="list1"><h3>More success</h3></li>
+			<li class="list1"><h3>Make it look awesome &#129321</h3></li>
+		</ul>
+	</section>
+	<section><h2 class="h2blog">Random Table</h2>
+		<table id="table">
+			<tr>
+				<th>Class</th>
+				<th>Instructor</th>
+				<th>Vibe</th>
+			</tr>
+			<tr>
+				<td>1401</td>
+				<td>Susan Escobar</td>
+				<td>&#128526</td>
+			</tr>
+			<tr>
+				<td>1316</td>
+				<td>Susan Escobar</td>
+				<td>&#128561</td>
+			</tr>
+			<tr>
+				<td>1311</td>
+				<td>Estabon Delgado</td>
+				<td>&#128524</td>
+			</tr>
+			<tr>
+				<td>2348</td>
+				<td>Melissa Monroe-Young</td>
+				<td>&#128528</td>
+			</tr>
+		</table>
+	</section>
+</div>
+	
+<footer id="demo1"><p id="demo2">Things are really changing here.</p>
+	
+	<button type="button" 
+		onclick="document.getElementById('demo1').style.backgroundColor='black'">
+		Magic Button
+		</button>
+	
+
+	<button onclick="myFunction()">Toggle</button>
+		<script>
+			function myFunction() {
+   			var element = document.getElementById("demo2");
+   			element.classList.toggle("darkmode");
+			}
+		</script>
+</footer>
+
+	
 </body>
 </html>

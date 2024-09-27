@@ -15,7 +15,8 @@ header {
 	.site-logo {
 	position: relative;
 	display: block;
-	float: left;	
+	float: left;
+	margin-left:0.9em;
 }
 	.site-logo img {
 	width:5em;
@@ -24,8 +25,9 @@ header {
 	list-style-type: none;
 	text-align: right;
 	padding-top:0.9em;
+	padding-right:0.9em;
 }
-	li {
+	.li {
 	display: inline-block;
 	margin: 10px;
 	font-size: 1.25em;
@@ -47,11 +49,14 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 		border-radius:50%;
-		clip-path: circle(150px)
+		clip-path: circle(111px);
+		width:14em;
+		margin-bottom:-60px;
+		margin-top:60px
 	}
 	.h1name {
 		color:#121212;
-		font-size:300%;
+		font-size:350%;
 		text-align:center;
 		padding-bottom:25px;
 		letter-spacing: 5px
@@ -59,7 +64,7 @@ body {
 	.h1name {
   		font-family: "Inter Tight", sans-serif;
   		font-optical-sizing: auto;
-  		font-weight:400;
+  		font-weight:500;
   		font-style: normal;
 }
 	.pstyle1{
@@ -91,14 +96,81 @@ body {
 	.aboutbutton:active {
 		background-color:darkgoldenrod;
 }
-	.aboutbutton:visited {
-		background-color:gold;
+	.emptyblock {
+		width:80%;
+		height:50px;
 }
-	.imgmap {
-	width:700px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+section {
+	display:block;
+	max-width: 1400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+	.h2blog {
+		font-family: "Inter Tight", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 500;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 240%;
+		margin-bottom: 40px;
+}
+	.container2 {
+		max-width: 700px;
+		margin:auto auto 40px;
+}	
+	.container {
+		position: relative;
+  		width: 100%;
+  		overflow: hidden;
+  		padding-top: 56.25%;
+		background-color: orange;
+}
+	.iframe {
+		position: absolute;
+  		top: 0;
+  		left: 0;
+  		bottom: 0;
+  		right: 0;
+  		width: 100%;
+  		height: 100%;
+  		border: none;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+	.orderedlist {
+		width: 90%;
+		font-family:arial;
+		border: outset 4px cadetblue;
+		padding: 0px 25px;
+		color:#404040;
+		margin: 40px auto;
+}
+	.list1 {
+		background-color: white;
+		display: list-item;
+}
+	#table {
+	font-family: arial;
+	border-collapse: collapse;
+	width: 90%;
+	margin:40px auto;
+}
+	#table td, #table th {
+	border: 1px solid #242424;
+	padding: 5px;
+}
+	#table tr:nth-child(even) {
+	background-color: lightblue;
+}
+	#table th {
+	padding: 10px 5px;
+	text-align: left;
+	background-color: cadetblue;
+}
+#table tr:hover {
+	background-color: gold;
 }
 footer {
 	background-color: darkgoldenrod;
@@ -108,4 +180,20 @@ footer {
 	padding: 20px;
 	font-size: 125%;
 	font-family:cambria;
+}
+button {
+	background-color:palegoldenrod;
+	font-family:cambria;
+	padding: 3px;
+	margin:15px 0px 0px;
+	border:outset 3px goldenrod;
+	border-radius: 5px;
+}
+button:hover {
+	background-color:goldenrod;
+	border:outset 3px darkgoldenrod;
+}
+.darkmode{
+	background-color: #121212;
+  	color: white;
 }
