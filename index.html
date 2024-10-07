@@ -35,82 +35,73 @@
 		<a href="AboutMe.html"><h3 class="aboutbutton">About Me</h3></a>
 	</section>
 </div>
-
-	
-	
-	<article><img src="images/AboutME.png" alt="About Me" usemap="#aboutmap" class="imgmap">
-			<map name="aboutmap">
-  <area shape="rect" coords="10,55,162,145" alt="#" href="#" title="puzzle solver">
-  <area shape="rect" coords="362,55,515,145" alt="#" href="#" title="marching band">
-			</map>
-			</article>
-	
-	
 	
 	<div class="emptyblock"></div>
-
-	
 	
 <div>
 	<section><h2 class="h2blog">From the blog</h2>
-		<article><h3>No content yet.&#128274</h3></article>
-		<article><h3>No content yet.&#128296</h3></article>
-		<article><h3>No content yet.&#x1F527</h3></article>
+		<article><h3>Still no content yet.&#128274</h3></article>
+		<article><h3>Still no cntent yet.&#128296</h3></article>
+		<article><h3>Still no content yet.&#x1F527</h3></article>
 		<br>
 	</section>
-	<section><h2 class="h2blog">There's a video here</h2>
+	<section><h2 class="h2blog">Inception</h2>
 		<div class="container2">
 			<div class="container">
-			<iframe src="https://www.youtube.com/watch?v=p6aF5ma7BiM" title="Design Theory: How Brands Use Design and Marketing to Control Your Mind" class="iframe">
+			<iframe src="#" title="#" class="iframe">
 			</iframe>
 			</div>
 		</div>
 	</section>
-	<section><h2 class="h2blog">Goals for this site</h2>
-		<ul  type="square" class="orderedlist">
-			<li class="list1"><h3>Success</h3></li>
-			<li class="list1"><h3>More success</h3></li>
-			<li class="list1"><h3>Make it look awesome &#129321</h3></li>
-		</ul>
+	<section class="forms"><h2 class="h2blog">Forms</h2>
+		<form action="AboutMe.html"><h3 class="h3blog">Is yellow a good background color for a website?</h3>
+			<input type="radio" name="answer" value="Yes" id="Yes">
+				<label for="Yes">Yes</label><br>
+			<input type="radio" name="answer" value="Not bad" id="No">
+				<label for="No">No</label><br>
+					<br>
+			<input type="submit" value="submit">
+		</form>
+			<br>
+		<form action="AboutMe.html"><h3 class="h3blog">Select the theme(s) you might use on this website.</h3>
+			<input type="checkbox" name="color?" value="Dark yellow" id="Dark yellow">
+				<label for="Dark yellow">Dark yellow</label><br>
+			<input type="checkbox" name="color?" value="Light yellow" id="light yellow">
+				<label for="Light yellow">Light yellow</label><br>
+			<input type="checkbox" name="color?" value="Deep blue" id="Deep blue">
+				<label for="Deep blue">Deep blue</label><br>
+			<input type="checkbox" name="color?" value="Contrast" id="Contrast">
+				<label for="Contrast">Black and White</label><br>
+					<br>
+			<input type="submit" value="submit">
+		</form>
 	</section>
-	<section><h2 class="h2blog">Random Table</h2>
-		<table id="table">
-			<tr>
-				<th>Class</th>
-				<th>Instructor</th>
-				<th>Vibe</th>
-			</tr>
-			<tr>
-				<td>1401</td>
-				<td>Susan Escobar</td>
-				<td>&#128526</td>
-			</tr>
-			<tr>
-				<td>1316</td>
-				<td>Susan Escobar</td>
-				<td>&#128561</td>
-			</tr>
-			<tr>
-				<td>1311</td>
-				<td>Estabon Delgado</td>
-				<td>&#128524</td>
-			</tr>
-			<tr>
-				<td>2348</td>
-				<td>Melissa Monroe-Young</td>
-				<td>&#128528</td>
-			</tr>
-		</table>
+	<section><h2 class="h2blog">Canvas</h2>
+		<canvas id="canvas"></canvas>
+		<script>
+			const canvas = document.getElementById("canvas");
+			const ctx = canvas.getContext("2d");
+			ctx.shadowColor = "darkgoldenrod";
+			ctx.shadowOffsetX = 10;
+			ctx.shadowOffsetY = 10;
+
+			ctx.fillStyle = "goldenrod";
+			ctx.fillRect(20, 20, 100, 100);
+			
+			ctx.lineWidth = 10;
+			ctx.strokeStyle = "darkgoldenrod";
+			ctx.strokeRect(20, 20, 100, 100);
+		</script>
+	</section>
+	<section><h2 class="h2blog">Media</h2>
+		<audio controls>
+  			<source src="media/discord-notification.mp3" type="audio/mpeg">
+			I guess your browser doesn't support this audio.
+		</audio>
 	</section>
 </div>
-	
-<footer id="demo1"><p id="demo2">Things are really changing here.</p>
-	
-	<button type="button" 
-		onclick="document.getElementById('demo1').style.backgroundColor='black'">
-		Magic Button
-		</button>
-	
+
+<footer id="demo2"><p>Things are really changing here.</p>	
 
 	<button onclick="myFunction()">Toggle</button>
 		<script>
@@ -119,6 +110,7 @@
    			element.classList.toggle("darkmode");
 			}
 		</script>
+	
 </footer>
 
 	

@@ -10,7 +10,6 @@ header {
 	top: 0px;
 	padding: 10px;
 	position: absolute;
-	background-color:#FFF;
 }
 	.site-logo {
 	position: relative;
@@ -40,10 +39,10 @@ header {
 	a:hover {
 	color:goldenrod;
 }
+
 body {
 	background-color: #FFF;
-}
-	
+}	
 	.myface {
 		display: block;
 		margin-left: auto;
@@ -100,6 +99,7 @@ body {
 		width:80%;
 		height:50px;
 }
+
 section {
 	display:block;
 	max-width: 1400px;
@@ -139,39 +139,7 @@ section {
 		margin-right: auto;
 		
 }
-	.orderedlist {
-		width: 90%;
-		font-family:arial;
-		border: outset 4px cadetblue;
-		padding: 0px 25px;
-		color:#404040;
-		margin: 40px auto;
-}
-	.list1 {
-		background-color: white;
-		display: list-item;
-}
-	#table {
-	font-family: arial;
-	border-collapse: collapse;
-	width: 90%;
-	margin:40px auto;
-}
-	#table td, #table th {
-	border: 1px solid #242424;
-	padding: 5px;
-}
-	#table tr:nth-child(even) {
-	background-color: lightblue;
-}
-	#table th {
-	padding: 10px 5px;
-	text-align: left;
-	background-color: cadetblue;
-}
-#table tr:hover {
-	background-color: gold;
-}
+
 footer {
 	background-color: darkgoldenrod;
 	clear: both;
@@ -193,16 +161,47 @@ button:hover {
 	background-color:goldenrod;
 	border:outset 3px darkgoldenrod;
 }
-.darkmode{
-	background-color: #121212;
+.darkmode {
+	background-color: #000;
   	color: white;
 }
 
 
+.h3blog {
+	font-family: "Inter Tight", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+label {
+	font-family: "Inter Tight", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+.forms {
+	border-radius: 5px;
+  	background-color: cadetblue;
+  	padding: 20px;
+}
+input[type=submit] {
+	background-color: lightgoldenrodyellow;
+	padding: 5px;
+	border: outset 3px #346D6F;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "Inter Tight", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	letterspacing: 1px;
+}
 
-.imgmap {
-	width:700px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+input[type=submit]:hover {
+  background-color: darkcyan;
+}
+input {
+	background-color: #2196F3;
 }
