@@ -20,7 +20,7 @@
 		<nav class="site-nav">
 		<li class="li"><a href="index.html">Home</a></li>
 		<li class="li"><a href="AboutMe.html">About</a></li>
-		<li class="li"><a href="#">Gallery</a></li>
+		<li class="li"><a href="Gallery.html">Gallery</a></li>
 		<li class="li"><a href="#">Blog</a></li>
 		<li class="li"><a href="#">Contact</a></li>
 		</nav>
@@ -45,7 +45,13 @@
 		<article><h3>Still no content yet.&#x1F527</h3></article>
 		<br>
 	</section>
-	<section><h2 class="h2blog">Inception</h2>
+	<section><h2 class="h2blog">From the gallery</h2>
+		<article><h3>Still no content yet.&#128274</h3></article>
+		<article><h3>Still no cntent yet.&#128296</h3></article>
+		<article><h3>Still no content yet.&#x1F527</h3></article>
+		<br>
+	</section>
+	<section><h2 class="h2blog">From the home page</h2>
 		<div class="container2">
 			<div class="container">
 			<iframe src="#" title="#" class="iframe">
@@ -53,56 +59,10 @@
 			</div>
 		</div>
 	</section>
-	<section class="forms"><h2 class="h2blog">Forms</h2>
-		<form action="AboutMe.html"><h3 class="h3blog">Is yellow a good background color for a website?</h3>
-			<input type="radio" name="answer" value="Yes" id="Yes">
-				<label for="Yes">Yes</label><br>
-			<input type="radio" name="answer" value="Not bad" id="No">
-				<label for="No">No</label><br>
-					<br>
-			<input type="submit" value="submit">
-		</form>
-			<br>
-		<form action="AboutMe.html"><h3 class="h3blog">Select the theme(s) you might use on this website.</h3>
-			<input type="checkbox" name="color?" value="Dark yellow" id="Dark yellow">
-				<label for="Dark yellow">Dark yellow</label><br>
-			<input type="checkbox" name="color?" value="Light yellow" id="light yellow">
-				<label for="Light yellow">Light yellow</label><br>
-			<input type="checkbox" name="color?" value="Deep blue" id="Deep blue">
-				<label for="Deep blue">Deep blue</label><br>
-			<input type="checkbox" name="color?" value="Contrast" id="Contrast">
-				<label for="Contrast">Black and White</label><br>
-					<br>
-			<input type="submit" value="submit">
-		</form>
-	</section>
-	<section><h2 class="h2blog">Canvas</h2>
-		<canvas id="canvas"></canvas>
-		<script>
-			const canvas = document.getElementById("canvas");
-			const ctx = canvas.getContext("2d");
-			ctx.shadowColor = "darkgoldenrod";
-			ctx.shadowOffsetX = 10;
-			ctx.shadowOffsetY = 10;
-
-			ctx.fillStyle = "goldenrod";
-			ctx.fillRect(20, 20, 100, 100);
-			
-			ctx.lineWidth = 10;
-			ctx.strokeStyle = "darkgoldenrod";
-			ctx.strokeRect(20, 20, 100, 100);
-		</script>
-	</section>
-	<section><h2 class="h2blog">Media</h2>
-		<audio controls>
-  			<source src="media/discord-notification.mp3" type="audio/mpeg">
-			I guess your browser doesn't support this audio.
-		</audio>
-	</section>
 </div>
 
-<footer id="demo2"><p>Things are really changing here.</p>	
-
+<footer id="demo2">
+	<p>Things are really changing here.</p>	
 	<button onclick="myFunction()">Toggle</button>
 		<script>
 			function myFunction() {
@@ -110,7 +70,6 @@
    			element.classList.toggle("darkmode");
 			}
 		</script>
-	
 </footer>
 
 	

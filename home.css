@@ -167,47 +167,34 @@ button:hover {
 }
 
 
+/*Gallery CSS*/
 
-
-
-
-
-
-.h3blog {
-	font-family: "Inter Tight", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 500;
-	font-style: normal;
-	letter-spacing: 1px;
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 4px;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
 }
-label {
-	font-family: "Inter Tight", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 500;
-	font-style: normal;
-	letter-spacing: 1px;
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0px 4px;
 }
-.forms {
-	border-radius: 5px;
-  	background-color: cadetblue;
-  	padding: 20px;
+.column img {
+	margin: 10px;
+	vertical-align: middle;
 }
-input[type=submit] {
-	background-color: lightgoldenrodyellow;
-	padding: 5px;
-	border: outset 3px #346D6F;
-	border-radius: 4px;
-	cursor: pointer;
-	font-family: "Inter Tight", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 500;
-	font-style: normal;
-	letterspacing: 1px;
+@media (max-width: 800px) {
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
 }
-
-input[type=submit]:hover {
-  background-color: darkcyan;
-}
-input {
-	background-color: #2196F3;
+@media (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
 }
